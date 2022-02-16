@@ -14,75 +14,149 @@
     <link rel="stylesheet" href="./css/style.css" />
 
 </head>
-<header>
-    <div class="header__container">
-        <div class="header__items">
-            <a class="header__logo" href="#">
-                <picture>
-                    <source srcset="images/logo.webp" type="image/webp" />
-                    <img src="img/logo.png" alt="logo" />
-                </picture>
-            </a>
-            <nav class="header__nav">
-                <div class="nav__items">
-                    <a class="nav__item">Order</a>
-                    <a class="nav__item">About</a>
-                    <a class="nav__item">Results</a>
-                </div>
-            </nav>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__items">
+                <a class="header__logo" href="#">
+                    <picture>
+                        <source srcset="images/logo.webp" type="image/webp" />
+                        <img src="img/logo.png" alt="logo" />
+                    </picture>
+                </a>
+                <nav class="header__nav">
+                    <div class="nav__items">
+                        <a class="nav__item" href="#order">Order</a>
+                        <a class="nav__item" href="#about">About</a>
+                        <a class="nav__item" href="#results">Results</a>
+                    </div>
+                </nav>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<!---HERO-->
+    <!---HERO-->
 
-<section class="section hero">
-    <div class="container">
-        <h1 class="hero__title">Pet Naturals of Vermont, Calming, For Cats</h1>
-        <div class="hero__items">
-            <div class="hero__item">
-                <p>
-                    Your cat deserves the best pet
-                    <br>supplement the world has to offer.
-                    <br>That's what's in the package.
-                </p>
-                <div class="hero__list">
-                    <ul>
-                        <li>Features a patented calming blend</li>
-                        <li>Doesn’t contain herbal ingredients</li>
-                        <li>Helps manage everyday stress</li>
-                    </ul>
+    <section class="section hero">
+        <div class="container">
+            <h1 class="hero__title">Pet Naturals of Vermont, Calming, For Cats</h1>
+            <div class="hero__items">
+                <div class="hero__item">
+                    <p>
+                        Your cat deserves the best pet
+                        <br>supplement the world has to offer.
+                        <br>That's what's in the package.
+                    </p>
+                    <div class="hero__list">
+                        <ul>
+                            <li>Features a patented calming blend</li>
+                            <li>Doesn’t contain herbal ingredients</li>
+                            <li>Helps manage everyday stress</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hero__item">
+                    <picture>
+                        <source srcset="images/kitty.webp" type="image/webp"><img src="images/kitty.png" alt="kitty">
+                    </picture>
+                </div>
+                <div class="hero__item">
+                    <form id="order">
+                        <div class="form-wrapper">
+                            <h4 class="form__title">TIME LEFT</h4>
+                            <div class="form__time">2:00:00</div>
+                            <div class="form__price">
+                                <div class="form__price">120uah</div>
+                                <div class="form__price">60uah</div>
+                            </div>
+                        </div>
+                        <div class="form__input">
+                            <input class="form__name" type="text" placeholder="Name">
+                        </div>
+                        <div class="form__input">
+                            <input class="form__number" id="phone" name="phone" type="text"
+                                placeholder="+38(0__)___-__-__">
+                        </div>
+                        <button class="form__btn">ORDER</button>
+                        <div class="form__date"></div>
+                    </form>
                 </div>
             </div>
-            <div class="hero__item">
+        </div>
+    </section>
+
+    <!--ADVANTAGE-->
+    <section class="section advantage" id="about">
+        <h2 class="advantage__title">From the manufacturer</h2>
+        <div class="advantage__items">
+            <div class="advantage_item">
                 <picture>
-                    <source srcset="images/kitty.webp" type="image/webp"><img src="images/kitty.png" alt="kitty">
+                    <source srcset="images/advantage1.webp" type="image/webp"><img class="advantage__item-img"
+                        src="images/advantage1.png" alt="cat">
                 </picture>
-            </div>
-            <div class="hero__item">
-                <form>
-                    <div class="form-wrapper">
-                        <h4 class="form__title">TIME LEFT</h4>
-                        <div class="form__time">2:00:00</div>
-                        <div class="form__price">
-                            <div class="form__price">120uah</div>
-                            <div class="form__price">60uah</div>
+                <div class="advantage__item-content">
+                    <h4 class="advantage__item-title">Keep Calm and Carry On</h4>
+                    <p class="advantage__item-text">
+                        Are you searching for a better way to ease your pet’s separation anxiety or stress? Calming
+                        chews
+                        help relieve
+                        pet stress without corn, wheat or artificial ingredients.
+                    </p>
+                </div>
+                <div class="advantage_item">
+                    <img class="advantage__item-img" src="images/advantage2.svg" alt="lotos logo">
+                    <div class="advantage__item-content">
+                        <h4 class="advantage__item-title">Peace of Mind</h4>
+                        <p class="advantage__item-text">
+                            Pet Naturals of Vermont’s research-backed formula makes it safe to double or triple the
+                            amount
+                            in times of added stress.
+                        </p>
+                    </div>
+                    <div class="advantage_item">
+                        <picture>
+                            <source srcset="images/advantage3.webp" type="image/webp"><img class="advantage__item-img"
+                                src="images/advantage3.png" alt="cat">
+                        </picture>
+                        <div class="advantage__item-content">
+                            <h4 class="advantage__item-title">More than a Tasty Treat</h4>
+                            <p class="advantage__item-text">
+                                Don’t let its satisfying chicken liver flavor fool you. Technically, Calming isn’t a
+                                treat
+                                but it sure tastes like one.
+                                Reward your best buddy with a Calming chew.
+                            </p>
                         </div>
                     </div>
-                    <div class="form__input">
-                        <input class="form__name" type="text" placeholder="Name">
-                    </div>
-                    <div class="form__input">
-                        <input class="form__number" id="phone" name="phone" type="text" placeholder="+38(0__)___-__-__">
-                    </div>
-                    <button class="form__btn">ORDER</button>
-                    <div class="form__date"></div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
-<body></body>
+    <!--RESULT-->
+
+    <section class="result" id="results">
+        <h2 class="result__title">Best Uses for Calming Chews</h2>
+        <div class="result__item-left">
+            <p>
+                Car rides. Vet visits. Thunderstorms. Boarding. Parties. These are just a handful of times when Calming
+                chews
+                may come in handy. Does your dog hate to be left home alone? Does your cat love hiding under the bed?
+                Serve up a
+                Calming chew to help soothe your furry pal’s anxiety and make your life easier, too!
+            </p>
+            <p>
+                For Best Results:
+            </p>
+            <p>
+                We recommend administering Calming chews 30 minutes prior to a stressful event. The 30-minute activation
+                period
+                gives you a chance to increase dosage if you’re not seeing expected results. Calming is safe for unique
+                stress
+                inducing events and for long-term use to help manage everyday stress.
+            </p>
+        </div>
+    </section>
+
+
+</body>
 
 </html>
