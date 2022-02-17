@@ -2,6 +2,137 @@ ul {
   list-style: none;
 }
 
-ol {
-  list-style: none;
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.advantage {
+  background: url("../images/advantage-section.png") center/100% 100% no-repeat;
+}
+
+img {
+  border-style: none;
+}
+
+/*-----HEADER----*/
+
+.header__container {
+  max-width: 1162px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 5px;
+  position: relative;
+  z-index: 3;
+}
+
+.container {
+  max-width: 1142px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
+}
+
+.nav__items {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.nav__item {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #715d00;
+}
+
+/*----------HERO----------*/
+
+.hero .hero__title {
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 61px;
+  text-align: center;
+  color: #f9e994;
+  max-width: 578px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+.hero {
+  margin-top: -156px;
+  padding-top: 156px;
+  height: 844px;
+  position: relative;
+}
+
+.hero {
+  background: url(../images/main.jpg) top center/cover no-repeat;
+  max-width: 1920px;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+.hero__items {
+  height: 462px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  position: relative;
+}
+
+/*--------------------------*/
+.advantage__title {
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 61px;
+  text-align: center;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f9e994),
+    color-stop(56.25%, #537d13),
+    to(#483c08)
+  );
+  background: -o-linear-gradient(top, #f9e994 0%, #537d13 56.25%, #483c08 100%);
+  background: linear-gradient(180deg, #f9e994 0%, #537d13 56.25%, #483c08 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 0 61px 0;
 }
