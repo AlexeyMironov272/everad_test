@@ -116,7 +116,7 @@ img {
   position: relative;
 }
 
-/*--------------------------*/
+/*-----------ADVANTAGE---------------*/
 .advantage__title {
   font-weight: bold;
   font-size: 52px;
@@ -136,3 +136,14 @@ img {
   -webkit-text-fill-color: transparent;
   margin: 0 0 61px 0;
 }
+
+.advantage__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/*-----FOOTER-----*/
