@@ -150,7 +150,8 @@ img {
   text-align: center;
   color: #f9e994;
   max-width: 578px;
-  margin: 0 auto;
+  margin: 40px auto;
+  
   
 }
 
@@ -320,9 +321,7 @@ img {
   margin: 0;
 }
 
-.hero__item .form__time {
-    background-color: #7FB3E1;
-    margin-top: -1px;
+.hero__item .form__time {   
   padding-top: 8px;
   text-align: center;
   font-weight: bold;
@@ -331,10 +330,7 @@ img {
   color: #f6e791;
 }
 
-.hero__item .form__price {
-    background-color: #7FB3E1;
-    margin-top: -1px;
-  padding-top: 3px;
+.hero__item .form__price {  
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -354,7 +350,7 @@ img {
     line-height: 35px;
     color: #6B6B6B;
     position: relative;
-    padding-left: 24px;
+    padding-left: 12px;
   }
   
   .hero__item .form__price:first-child::before {
@@ -376,9 +372,24 @@ img {
     line-height: 42px;
     color: #483C08;
     padding-right: 24px;
+    padding-left: 19px;
   }
+
+  .rectangle {
+    width: 102.9%;
+    height: 192px;
+    margin: 0 0 0 -4px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/Rectangle\ 12.png);
+    border-radius: 17px;
+    margin-bottom: 21px;
+    
+}
  
-  .hero__item .form .triangle {
+  /* .hero__item .form .triangle {
     width: 100%;
     height: 0;
     border-top: 33px solid #7EB2E1;
@@ -386,13 +397,14 @@ img {
     border-right: 135px solid transparent;
     padding-bottom: 21px;
     ;
-  }
+  } */
   
   .hero__item .form__input {
     width: 222px;
     position: relative;
     margin: 0 auto;
     margin-bottom: 15px;
+    padding-top: 0;
   }
   
   .hero__item .form__input::before {
@@ -518,6 +530,7 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+            padding-bottom: 53px;
   }
   
   .advantage_item {
@@ -753,6 +766,9 @@ img {
     background: -webkit-gradient(linear, left top, left bottom, from(#E1EDF8), color-stop(59.37%, rgba(127, 179, 225, 0)), to(rgba(0, 0, 0, 0.25)));
     background: -o-linear-gradient(top, #E1EDF8 0%, rgba(127, 179, 225, 0) 59.37%, rgba(0, 0, 0, 0.25) 100%);
     background: linear-gradient(180deg, #E1EDF8 0%, rgba(127, 179, 225, 0) 59.37%, rgba(0, 0, 0, 0.25) 100%);
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .result__items {
@@ -854,6 +870,7 @@ img {
     text-align: center;
     color: #537d13;
     margin: 0 0 61px 0;
+    padding-top: 99px;
   }
 
 
