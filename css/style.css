@@ -207,12 +207,11 @@ img {
   }
 
   .hero__list {
-    width: 323px;
-    height: 266px;
-    padding: ;
-    background: #7FB3E1;
-    border-radius: 20px;
-    position: relative;
+    max-width: 323px;
+  padding: 35px 20px 38px 0px;
+  background: #7FB3E1;
+  border-radius: 20px;
+  position: relative;
   }
 
   /*-----*/
@@ -929,7 +928,7 @@ img {
     }
   
     .hero__list {
-      max-width: 100%;
+      max-width: 100%;     
       margin-bottom: 50px;
       margin-right: auto;
       margin-left: auto;
@@ -1081,13 +1080,13 @@ img {
 
 .hero { background: url(../images/main.webp) top center/cover no-repeat; }
 
-.webp .advantage { background: url(../images/advantage1.webp) center/100% 100% no-repeat; }
+.webp .advantage { background: url(../images/advantage-section.webp) center/100% 100% no-repeat; }
 
 .webp .footer { background: url(../images/footer.webp) 0 0/cover no-repeat; }
 
 @media (max-width: 1300px) {
 
-  .webp .advantage { background: url(../images/advantage1.webp) center/cover no-repeat; }
+  .webp .advantage { background: url(../images/advantage-section.webp) center/cover no-repeat; }
 }
 
 
