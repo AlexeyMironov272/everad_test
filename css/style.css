@@ -180,7 +180,7 @@ img {
 }
 
 .hero__items {
-  width: 1142px;
+  max-width: 1142px;
   height: 462px;
   display: -webkit-box;
   display: -ms-flexbox;
