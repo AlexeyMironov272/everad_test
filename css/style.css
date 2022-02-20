@@ -783,7 +783,9 @@ img {
     
     }
   
-    
+    .hero {
+      height: 900px;
+    }
   
     .hero__item:nth-child(2) {
       display: none !important;
@@ -830,6 +832,10 @@ img {
     .result__item-right::after {
       bottom: -288px;
     }
+
+    .hero {
+      height: 900px;
+    }
   }
   
   /*===================*/
@@ -842,7 +848,9 @@ img {
       margin-bottom: 30px;
     }
   
-  
+    .hero {
+      height: 900px;
+    }
   
     .advantage {
       padding-top: 50px;
@@ -856,6 +864,10 @@ img {
   
     .advantage__item:nth-child(2) {
       display: none;
+    }
+
+    .hero {
+      height: 900px;
     }
   }
   
@@ -895,6 +907,10 @@ img {
     .result__item-right {
       display: none;
     }
+
+    .hero {
+      height: 900px;
+    }
   }
   
   /*====================================================================================*/
@@ -908,7 +924,7 @@ img {
     }
   
     .hero {
-      height: 1300px;
+      height: 1500px;
     }
   
     .hero__title {
