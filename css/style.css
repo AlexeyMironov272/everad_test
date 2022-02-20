@@ -928,7 +928,7 @@ img {
     }
   
     .hero__list {
-      max-width: 100%;     
+      max-width: 278px;     
       margin-bottom: 50px;
       margin-right: auto;
       margin-left: auto;
@@ -1048,6 +1048,8 @@ img {
   
     .header__items .nav__item {
       padding: 0 auto;
+      margin-left: 40px;
+      
     }
   
     .header__items .nav__item {
